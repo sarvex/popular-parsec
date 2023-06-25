@@ -13,7 +13,7 @@
     "style": "stylelint --fix \"**/*.{js,css,scss}\""
   },
   "dependencies": {
-    "@astrojs/image": "0.17.0",
+    "@astrojs/image": "0.17.1",
     "@astrojs/lit": "2.1.0",
     "@astrojs/mdx": "0.19.7",
     "@astrojs/partytown": "1.2.3",
