@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@astrojs/image':
-    specifier: 0.17.1
-    version: 0.17.1(astro@2.7.2)
+    specifier: 0.17.2
+    version: 0.17.2(astro@2.7.2)
   '@astrojs/lit':
     specifier: 2.1.0
-    version: 2.1.0(@webcomponents/template-shadowroot@0.2.1)(lit@2.7.5)
+    version: 2.1.0(@webcomponents/template-shadowroot@0.2.1)(lit@2.7.6)
   '@astrojs/mdx':
     specifier: 0.19.7
     version: 0.19.7(astro@2.7.2)
@@ -36,8 +36,8 @@ dependencies:
     specifier: 2.7.2
     version: 2.7.2
   lit:
-    specifier: 2.7.5
-    version: 2.7.5
+    specifier: 2.7.6
+    version: 2.7.6
 
 devDependencies:
   '@typescript-eslint/parser':
@@ -92,10 +92,10 @@ packages:
   /@astrojs/compiler@1.5.1:
     resolution: {integrity: sha512-iIGKu/uzB8sJ5VveQf0eHrVPPFEcrvSlp4qShYMOuY2aMmK2RVXQlX9dUjtmBQ+NAokfIOb7fwCutvH+p13l+g==}
 
-  /@astrojs/image@0.17.1(astro@2.7.2):
-    resolution: {integrity: sha512-+kb99ZTvl4BpbY6BeIAwJq08aGF/H4V9S6351I2GwIddQYilEQfHQ9b6EVfxoHIE6eSo8bRfUeKFkOmWVppWwA==}
+  /@astrojs/image@0.17.2(astro@2.7.2):
+    resolution: {integrity: sha512-hw5vGBlyPwyt9E4ux7eej7dJrcSlTAaMYKYd8OWIJVsFSbV75sXNi+5lwbpNjDLGVIS6Baa4nzayjN5Gxo73MQ==}
     peerDependencies:
-      astro: ^2.7.0
+      astro: ^2.7.3
       sharp: '>=0.31.0'
     peerDependenciesMeta:
       sharp:
@@ -133,7 +133,7 @@ packages:
       vscode-uri: 3.0.7
     dev: false
 
-  /@astrojs/lit@2.1.0(@webcomponents/template-shadowroot@0.2.1)(lit@2.7.5):
+  /@astrojs/lit@2.1.0(@webcomponents/template-shadowroot@0.2.1)(lit@2.7.6):
     resolution: {integrity: sha512-X0CmJOq7kPygZFlpUdQ7fo4K7/pt7Q4osPpQZNYfueHMsgLh6PtikRJb/Oq/zgFAWN//lYWTnjCvsZyV6O1l+w==}
     peerDependencies:
       '@webcomponents/template-shadowroot': ^0.2.1
@@ -143,7 +143,7 @@ packages:
       '@lit-labs/ssr-client': 1.1.2
       '@lit-labs/ssr-dom-shim': 1.1.1
       '@webcomponents/template-shadowroot': 0.2.1
-      lit: 2.7.5
+      lit: 2.7.6
       parse5: 7.1.2
     dev: false
 
@@ -841,7 +841,7 @@ packages:
     resolution: {integrity: sha512-hb10IRTmxtnQ2fcYYJE7bC2f+6UmucBgFnkfxepoE1cZ5mO6ZiTZGoFzFrNd5EQXeQq+HpYmYOF4W/JBwBE+AA==}
     dependencies:
       '@lit/reactive-element': 1.6.2
-      lit: 2.7.5
+      lit: 2.7.6
       lit-html: 2.7.4
     dev: false
 
@@ -859,7 +859,7 @@ packages:
       '@parse5/tools': 0.1.0
       '@types/node': 16.18.36
       enhanced-resolve: 5.15.0
-      lit: 2.7.5
+      lit: 2.7.6
       lit-element: 3.3.2
       lit-html: 2.7.4
       node-fetch: 3.3.1
@@ -2936,8 +2936,8 @@ packages:
       '@types/trusted-types': 2.0.3
     dev: false
 
-  /lit@2.7.5:
-    resolution: {integrity: sha512-i/cH7Ye6nBDUASMnfwcictBnsTN91+aBjXoTHF2xARghXScKxpD4F4WYI+VLXg9lqbMinDfvoI7VnZXjyHgdfQ==}
+  /lit@2.7.6:
+    resolution: {integrity: sha512-1amFHA7t4VaaDe+vdQejSVBklwtH9svGoG6/dZi9JhxtJBBlqY5D1RV7iLUYY0trCqQc4NfhYYZilZiVHt7Hxg==}
     dependencies:
       '@lit/reactive-element': 1.6.2
       lit-element: 3.3.2
