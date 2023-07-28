@@ -21,8 +21,8 @@ dependencies:
     specifier: 0.2.3
     version: 0.2.3
   '@astrojs/sitemap':
-    specifier: 1.3.3
-    version: 1.3.3
+    specifier: 2.0.1
+    version: 2.0.1
   '@astrojs/tailwind':
     specifier: 4.0.0
     version: 4.0.0(astro@2.8.0)(tailwindcss@3.3.3)
@@ -48,7 +48,7 @@ devDependencies:
     version: 1.5.0
   postcss-lit:
     specifier: 1.1.0
-    version: 1.1.0(postcss@8.4.24)
+    version: 1.1.0(postcss@8.4.27)
   prettier:
     specifier: 3.0.0
     version: 3.0.0
@@ -63,7 +63,7 @@ devDependencies:
     version: 1.1.0(postcss-html@1.5.0)(stylelint@15.10.2)
   stylelint-config-standard-scss:
     specifier: 10.0.0
-    version: 10.0.0(postcss@8.4.24)(stylelint@15.10.2)
+    version: 10.0.0(postcss@8.4.27)(stylelint@15.10.2)
   stylelint-config-tailwindcss:
     specifier: 0.0.7
     version: 0.0.7(stylelint@15.10.2)(tailwindcss@3.3.3)
@@ -222,8 +222,8 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/sitemap@1.3.3:
-    resolution: {integrity: sha512-TPyyb/hKxc+bHPpSoNPhsuI0QOTVzq2tueg2r0CTH1HqigYIAA2LQkCBlQzz85R+LrOZpv4kXYmhxdDcSkJCmA==}
+  /@astrojs/sitemap@2.0.1:
+    resolution: {integrity: sha512-unoaSEyHuR8IApsPN467SD5FMm4PBnaQSHbtvt4dVS3PMDObZV5/lKIbjlfSad7ENzuvpBSLCGyLDOykXUNu6w==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.21.4
@@ -4037,7 +4037,7 @@ packages:
       camelcase-css: 2.0.1
       postcss: 8.4.24
 
-  /postcss-lit@1.1.0(postcss@8.4.24):
+  /postcss-lit@1.1.0(postcss@8.4.27):
     resolution: {integrity: sha512-JGrJOVKkSTOHp8dEooq+IzmwiLlx+v7muXXZIV59URcwCpTN53szlrmQA2i7r4cdFxTfPFXId5O0cWjEg6rkQQ==}
     peerDependencies:
       postcss: ^8.3.11
@@ -4046,7 +4046,7 @@ packages:
       '@babel/parser': 7.22.5
       '@babel/traverse': 7.22.5
       lilconfig: 2.1.0
-      postcss: 8.4.24
+      postcss: 8.4.27
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4102,13 +4102,13 @@ packages:
       postcss: 8.4.27
     dev: true
 
-  /postcss-scss@4.0.6(postcss@8.4.24):
+  /postcss-scss@4.0.6(postcss@8.4.27):
     resolution: {integrity: sha512-rLDPhJY4z/i4nVFZ27j9GqLxj1pwxE80eAzUNRMXtcpipFYIeowerzBgG3yJhMtObGEXidtIgbUpQ3eLDsf5OQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.4.19
     dependencies:
-      postcss: 8.4.24
+      postcss: 8.4.27
     dev: true
 
   /postcss-selector-parser@6.0.13:
@@ -4723,7 +4723,7 @@ packages:
       stylelint: 15.10.2
     dev: true
 
-  /stylelint-config-recommended-scss@12.0.0(postcss@8.4.24)(stylelint@15.10.2):
+  /stylelint-config-recommended-scss@12.0.0(postcss@8.4.27)(stylelint@15.10.2):
     resolution: {integrity: sha512-5Bb2mlGy6WLa30oNeKpZvavv2lowJUsUJO25+OA68GFTemlwd1zbFsL7q0bReKipOSU3sG47hKneZ6Nd+ctrFA==}
     peerDependencies:
       postcss: ^8.3.3
@@ -4732,8 +4732,8 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.24
-      postcss-scss: 4.0.6(postcss@8.4.24)
+      postcss: 8.4.27
+      postcss-scss: 4.0.6(postcss@8.4.27)
       stylelint: 15.10.2
       stylelint-config-recommended: 12.0.0(stylelint@15.10.2)
       stylelint-scss: 5.0.1(stylelint@15.10.2)
@@ -4747,7 +4747,7 @@ packages:
       stylelint: 15.10.2
     dev: true
 
-  /stylelint-config-standard-scss@10.0.0(postcss@8.4.24)(stylelint@15.10.2):
+  /stylelint-config-standard-scss@10.0.0(postcss@8.4.27)(stylelint@15.10.2):
     resolution: {integrity: sha512-bChBEo1p3xUVWh/wenJI+josoMk21f2yuLDGzGjmKYcALfl2u3DFltY+n4UHswYiXghqXaA8mRh+bFy/q1hQlg==}
     peerDependencies:
       postcss: ^8.3.3
@@ -4756,9 +4756,9 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.24
+      postcss: 8.4.27
       stylelint: 15.10.2
-      stylelint-config-recommended-scss: 12.0.0(postcss@8.4.24)(stylelint@15.10.2)
+      stylelint-config-recommended-scss: 12.0.0(postcss@8.4.27)(stylelint@15.10.2)
       stylelint-config-standard: 33.0.0(stylelint@15.10.2)
     dev: true
 
