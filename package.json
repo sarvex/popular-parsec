@@ -20,13 +20,13 @@
     "@astrojs/prefetch": "0.3.0",
     "@astrojs/sitemap": "2.0.1",
     "@astrojs/tailwind": "4.0.0",
-    "@astrojs/vercel": "3.7.4",
+    "@astrojs/vercel": "3.7.5",
     "@webcomponents/template-shadowroot": "0.2.1",
-    "astro": "2.9.4",
+    "astro": "2.9.7",
     "lit": "2.7.6"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "6.2.0",
+    "@typescript-eslint/parser": "6.2.1",
     "postcss-html": "1.5.0",
     "postcss-lit": "1.1.0",
     "prettier": "3.0.0",
