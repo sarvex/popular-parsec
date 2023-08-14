@@ -10,7 +10,7 @@ dependencies:
     version: 0.17.3(astro@2.9.7)
   '@astrojs/lit':
     specifier: 2.1.1
-    version: 2.1.1(@webcomponents/template-shadowroot@0.2.1)(lit@2.7.6)
+    version: 2.1.1(@webcomponents/template-shadowroot@0.2.1)(lit@2.8.0)
   '@astrojs/mdx':
     specifier: 0.19.7
     version: 0.19.7(astro@2.9.7)
@@ -36,8 +36,8 @@ dependencies:
     specifier: 2.9.7
     version: 2.9.7
   lit:
-    specifier: 2.7.6
-    version: 2.7.6
+    specifier: 2.8.0
+    version: 2.8.0
 
 devDependencies:
   '@typescript-eslint/parser':
@@ -137,7 +137,7 @@ packages:
       vscode-uri: 3.0.7
     dev: false
 
-  /@astrojs/lit@2.1.1(@webcomponents/template-shadowroot@0.2.1)(lit@2.7.6):
+  /@astrojs/lit@2.1.1(@webcomponents/template-shadowroot@0.2.1)(lit@2.8.0):
     resolution: {integrity: sha512-dvSywlcJt/mxLLoyBwgu/d7biIkfnkXPyr9y9RcNLvx6IDH2QdmfQ58F+jO4OP8/CEt6QRZJHB8lJwlk8m8zbw==}
     peerDependencies:
       '@webcomponents/template-shadowroot': ^0.2.1
@@ -147,7 +147,7 @@ packages:
       '@lit-labs/ssr-client': 1.1.2
       '@lit-labs/ssr-dom-shim': 1.1.1
       '@webcomponents/template-shadowroot': 0.2.1
-      lit: 2.7.6
+      lit: 2.8.0
       parse5: 7.1.2
     dev: false
 
@@ -1043,7 +1043,7 @@ packages:
     resolution: {integrity: sha512-hb10IRTmxtnQ2fcYYJE7bC2f+6UmucBgFnkfxepoE1cZ5mO6ZiTZGoFzFrNd5EQXeQq+HpYmYOF4W/JBwBE+AA==}
     dependencies:
       '@lit/reactive-element': 1.6.2
-      lit: 2.7.6
+      lit: 2.8.0
       lit-html: 2.7.4
     dev: false
 
@@ -1061,7 +1061,7 @@ packages:
       '@parse5/tools': 0.1.0
       '@types/node': 16.18.36
       enhanced-resolve: 5.15.0
-      lit: 2.7.6
+      lit: 2.8.0
       lit-element: 3.3.2
       lit-html: 2.7.4
       node-fetch: 3.3.1
@@ -3157,7 +3157,7 @@ packages:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.1.1
       '@lit/reactive-element': 1.6.2
-      lit-html: 2.7.4
+      lit-html: 2.8.0
     dev: false
 
   /lit-html@2.7.4:
@@ -3166,12 +3166,18 @@ packages:
       '@types/trusted-types': 2.0.3
     dev: false
 
-  /lit@2.7.6:
-    resolution: {integrity: sha512-1amFHA7t4VaaDe+vdQejSVBklwtH9svGoG6/dZi9JhxtJBBlqY5D1RV7iLUYY0trCqQc4NfhYYZilZiVHt7Hxg==}
+  /lit-html@2.8.0:
+    resolution: {integrity: sha512-o9t+MQM3P4y7M7yNzqAyjp7z+mQGa4NS4CxiyLqFPyFWyc4O+nodLrkrxSaCTrla6M5YOLaT3RpbbqjszB5g3Q==}
+    dependencies:
+      '@types/trusted-types': 2.0.3
+    dev: false
+
+  /lit@2.8.0:
+    resolution: {integrity: sha512-4Sc3OFX9QHOJaHbmTMk28SYgVxLN3ePDjg7hofEft2zWlehFL3LiAuapWc4U/kYwMYJSh2hTCPZ6/LIC7ii0MA==}
     dependencies:
       '@lit/reactive-element': 1.6.2
       lit-element: 3.3.2
-      lit-html: 2.7.4
+      lit-html: 2.8.0
     dev: false
 
   /load-yaml-file@0.2.0:
