@@ -26,7 +26,7 @@
     "lit": "2.8.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "6.3.0",
+    "@typescript-eslint/parser": "6.4.0",
     "postcss-html": "1.5.0",
     "postcss-lit": "1.1.0",
     "prettier": "3.0.2",
