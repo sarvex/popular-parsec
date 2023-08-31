@@ -20,7 +20,7 @@
     "@astrojs/prefetch": "0.3.0",
     "@astrojs/sitemap": "2.0.2",
     "@astrojs/tailwind": "4.0.0",
-    "@astrojs/vercel": "3.8.2",
+    "@astrojs/vercel": "4.0.0",
     "@webcomponents/template-shadowroot": "0.2.1",
     "astro": "3.0.3",
     "lit": "2.8.0"
