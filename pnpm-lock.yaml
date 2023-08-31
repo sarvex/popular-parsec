@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.17.3
     version: 0.17.3(astro@3.0.3)
   '@astrojs/lit':
-    specifier: 2.1.1
-    version: 2.1.1(@webcomponents/template-shadowroot@0.2.1)(lit@2.8.0)
+    specifier: 3.0.0
+    version: 3.0.0(@webcomponents/template-shadowroot@0.2.1)(lit@2.8.0)
   '@astrojs/mdx':
     specifier: 1.0.0
     version: 1.0.0(astro@3.0.3)
@@ -119,14 +119,14 @@ packages:
     resolution: {integrity: sha512-NQ4ppp1CM0HNkKbJNM4saVSfmUYzGlRalF6wx7F6T/MYHYSWGuojY89/oFTy4t8VlOGUCUijlsVNNeziWaUo5g==}
     dev: false
 
-  /@astrojs/lit@2.1.1(@webcomponents/template-shadowroot@0.2.1)(lit@2.8.0):
-    resolution: {integrity: sha512-dvSywlcJt/mxLLoyBwgu/d7biIkfnkXPyr9y9RcNLvx6IDH2QdmfQ58F+jO4OP8/CEt6QRZJHB8lJwlk8m8zbw==}
+  /@astrojs/lit@3.0.0(@webcomponents/template-shadowroot@0.2.1)(lit@2.8.0):
+    resolution: {integrity: sha512-XBRwGq1ImYKS5O+nAVQvsaOHn31S3IIhiOwXs7W6aV+pB9YEFukfenSdGoGwkQdcXSzD+Pkqrn2YwsKgOb/wDw==}
     peerDependencies:
       '@webcomponents/template-shadowroot': ^0.2.1
       lit: ^2.7.0
     dependencies:
-      '@lit-labs/ssr': 3.1.4
-      '@lit-labs/ssr-client': 1.1.2
+      '@lit-labs/ssr': 3.1.5
+      '@lit-labs/ssr-client': 1.1.3
       '@lit-labs/ssr-dom-shim': 1.1.1
       '@webcomponents/template-shadowroot': 0.2.1
       lit: 2.8.0
@@ -1066,23 +1066,23 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@lit-labs/ssr-client@1.1.2:
-    resolution: {integrity: sha512-hb10IRTmxtnQ2fcYYJE7bC2f+6UmucBgFnkfxepoE1cZ5mO6ZiTZGoFzFrNd5EQXeQq+HpYmYOF4W/JBwBE+AA==}
+  /@lit-labs/ssr-client@1.1.3:
+    resolution: {integrity: sha512-JIvpvfCEJGTIKH1L/kZYN68jiXuTBbHI6JG3H4HQI0Ko/8Z0qtlSP9G35IVDzNdMt+xVE4WYKsY9Vk6N2S55kQ==}
     dependencies:
       '@lit/reactive-element': 1.6.2
       lit: 2.8.0
-      lit-html: 2.7.4
+      lit-html: 2.8.0
     dev: false
 
   /@lit-labs/ssr-dom-shim@1.1.1:
     resolution: {integrity: sha512-kXOeFbfCm4fFf2A3WwVEeQj55tMZa8c8/f9AKHMobQMkzNUfUj+antR3fRPaZJawsa1aZiP/Da3ndpZrwEe4rQ==}
     dev: false
 
-  /@lit-labs/ssr@3.1.4:
-    resolution: {integrity: sha512-oxIEjm42Hzl47FFZU/yr8OPYECwfx+Zl6pGXomZhM1byqIVtGEFzVHd/4kLkKhCiHP4Fz786x8j2Qq5ZA2LTBQ==}
+  /@lit-labs/ssr@3.1.5:
+    resolution: {integrity: sha512-OvjM3CZGPRjZTIAgWvLCXS3sFj574rXfAzhtzQjgHYNxTuRy+LMfKpgeu8xF7PywdcOniVaLZuGKF4WS7YI7hA==}
     engines: {node: '>=13.9.0'}
     dependencies:
-      '@lit-labs/ssr-client': 1.1.2
+      '@lit-labs/ssr-client': 1.1.3
       '@lit-labs/ssr-dom-shim': 1.1.1
       '@lit/reactive-element': 1.6.2
       '@parse5/tools': 0.1.0
@@ -1090,7 +1090,7 @@ packages:
       enhanced-resolve: 5.15.0
       lit: 2.8.0
       lit-element: 3.3.2
-      lit-html: 2.7.4
+      lit-html: 2.8.0
       node-fetch: 3.3.1
       parse5: 7.1.2
     dev: false
@@ -3120,12 +3120,6 @@ packages:
       '@lit-labs/ssr-dom-shim': 1.1.1
       '@lit/reactive-element': 1.6.2
       lit-html: 2.8.0
-    dev: false
-
-  /lit-html@2.7.4:
-    resolution: {integrity: sha512-/Jw+FBpeEN+z8X6PJva5n7+0MzCVAH2yypN99qHYYkq8bI+j7I39GH+68Z/MZD6rGKDK9RpzBw7CocfmHfq6+g==}
-    dependencies:
-      '@types/trusted-types': 2.0.3
     dev: false
 
   /lit-html@2.8.0:
