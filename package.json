@@ -19,7 +19,7 @@
     "@astrojs/partytown": "2.0.0",
     "@astrojs/prefetch": "0.4.0",
     "@astrojs/sitemap": "3.0.0",
-    "@astrojs/tailwind": "4.0.0",
+    "@astrojs/tailwind": "5.0.0",
     "@astrojs/vercel": "4.0.0",
     "@webcomponents/template-shadowroot": "0.2.1",
     "astro": "3.0.3",
