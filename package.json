@@ -15,14 +15,14 @@
   "dependencies": {
     "@astrojs/image": "0.18.0",
     "@astrojs/lit": "3.0.0",
-    "@astrojs/mdx": "1.0.0",
+    "@astrojs/mdx": "1.0.3",
     "@astrojs/partytown": "2.0.0",
     "@astrojs/prefetch": "0.4.0",
     "@astrojs/sitemap": "3.0.0",
     "@astrojs/tailwind": "5.0.0",
-    "@astrojs/vercel": "4.0.3",
+    "@astrojs/vercel": "4.0.5",
     "@webcomponents/template-shadowroot": "0.2.1",
-    "astro": "3.0.7",
+    "astro": "3.0.12",
     "lit": "2.8.0"
   },
   "devDependencies": {
