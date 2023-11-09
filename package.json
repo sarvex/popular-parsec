@@ -22,7 +22,7 @@
     "@astrojs/tailwind": "5.0.2",
     "@astrojs/vercel": "5.2.0",
     "@webcomponents/template-shadowroot": "0.2.1",
-    "astro": "3.4.3",
+    "astro": "3.4.4",
     "lit": "3.0.2"
   },
   "devDependencies": {
