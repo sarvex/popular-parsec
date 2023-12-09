@@ -15,7 +15,7 @@
   "dependencies": {
     "@astrojs/image": "0.18.0",
     "@astrojs/lit": "3.0.3",
-    "@astrojs/mdx": "1.1.5",
+    "@astrojs/mdx": "2.0.0",
     "@astrojs/partytown": "2.0.2",
     "@astrojs/prefetch": "0.4.1",
     "@astrojs/sitemap": "3.0.3",
