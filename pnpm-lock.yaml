@@ -25,10 +25,10 @@ dependencies:
     version: 3.0.4
   '@astrojs/tailwind':
     specifier: 5.1.0
-    version: 5.1.0(astro@4.1.1)(tailwindcss@3.4.0)
+    version: 5.1.0(astro@4.1.1)(tailwindcss@3.4.1)
   '@astrojs/vercel':
-    specifier: 6.1.1
-    version: 6.1.1(astro@4.1.1)
+    specifier: 6.1.3
+    version: 6.1.3(astro@4.1.1)
   '@webcomponents/template-shadowroot':
     specifier: 0.2.1
     version: 0.2.1
@@ -66,10 +66,10 @@ devDependencies:
     version: 12.0.0(postcss@8.4.32)(stylelint@16.1.0)
   stylelint-config-tailwindcss:
     specifier: 0.0.7
-    version: 0.0.7(stylelint@16.1.0)(tailwindcss@3.4.0)
+    version: 0.0.7(stylelint@16.1.0)(tailwindcss@3.4.1)
   tailwindcss:
-    specifier: 3.4.0
-    version: 3.4.0
+    specifier: 3.4.1
+    version: 3.4.1
 
 packages:
 
@@ -208,7 +208,7 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.1.1)(tailwindcss@3.4.0):
+  /@astrojs/tailwind@5.1.0(astro@4.1.1)(tailwindcss@3.4.1):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
@@ -218,7 +218,7 @@ packages:
       autoprefixer: 10.4.15(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
-      tailwindcss: 3.4.0
+      tailwindcss: 3.4.1
     transitivePeerDependencies:
       - ts-node
     dev: false
@@ -238,8 +238,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vercel@6.1.1(astro@4.1.1):
-    resolution: {integrity: sha512-9y+rCO6LBAKP66/N2yogufTqgvy5cW4LDTFwJj1/DlZtKL+qIhEvp6GpkEbihd0BZdIkBxR/4OhMJBKMDx6ppQ==}
+  /@astrojs/vercel@6.1.3(astro@4.1.1):
+    resolution: {integrity: sha512-UKv7sHm0AakyYkG4yRuppawX/oOonc4SbqCbksunaYQct2mRbbsqUc/AZQEy7CAYYPfGJT2X9B0e8EzBMlNVlA==}
     peerDependencies:
       astro: ^4.0.2
     dependencies:
@@ -4986,14 +4986,14 @@ packages:
       stylelint-config-recommended: 14.0.0(stylelint@16.1.0)
     dev: true
 
-  /stylelint-config-tailwindcss@0.0.7(stylelint@16.1.0)(tailwindcss@3.4.0):
+  /stylelint-config-tailwindcss@0.0.7(stylelint@16.1.0)(tailwindcss@3.4.1):
     resolution: {integrity: sha512-n2dCWH+0ppr0/by4EYCLWW7g5LU+l4UzUIsYS7xbVHqvm9UWa7UhltNdNiz5NmLF/FmbJR4Yd/v9DuUGvLw1Tg==}
     peerDependencies:
       stylelint: '>=13.13.1'
       tailwindcss: '>=2.2.16'
     dependencies:
       stylelint: 16.1.0(typescript@5.1.3)
-      tailwindcss: 3.4.0
+      tailwindcss: 3.4.1
     dev: true
 
   /stylelint-scss@6.0.0(stylelint@16.1.0):
@@ -5117,8 +5117,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss@3.4.0:
-    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
+  /tailwindcss@3.4.1:
+    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
