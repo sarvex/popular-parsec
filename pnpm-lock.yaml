@@ -10,7 +10,7 @@ dependencies:
     version: 0.18.0(astro@4.1.1)
   '@astrojs/lit':
     specifier: 4.0.1
-    version: 4.0.1(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.0)
+    version: 4.0.1(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.1)
   '@astrojs/mdx':
     specifier: 2.0.3
     version: 2.0.3(astro@4.1.1)
@@ -36,8 +36,8 @@ dependencies:
     specifier: 4.1.1
     version: 4.1.1(typescript@5.1.3)
   lit:
-    specifier: 3.1.0
-    version: 3.1.0
+    specifier: 3.1.1
+    version: 3.1.1
 
 devDependencies:
   '@typescript-eslint/parser':
@@ -120,7 +120,7 @@ packages:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
     dev: false
 
-  /@astrojs/lit@4.0.1(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.0):
+  /@astrojs/lit@4.0.1(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.1):
     resolution: {integrity: sha512-dBTtsTlKC3TJhsZl5uzcwwTAuP1mgY3bHZDdAQVT7uVYXOfpeYeS9crQbr32BKRGx5WbqqZPDdz0TVyFpjBHSA==}
     peerDependencies:
       '@webcomponents/template-shadowroot': ^0.2.1
@@ -130,7 +130,7 @@ packages:
       '@lit-labs/ssr-client': 1.1.5
       '@lit-labs/ssr-dom-shim': 1.1.2
       '@webcomponents/template-shadowroot': 0.2.1
-      lit: 3.1.0
+      lit: 3.1.1
       parse5: 7.1.2
     dev: false
 
@@ -1004,7 +1004,7 @@ packages:
     resolution: {integrity: sha512-rAXd2OsuxfGA579RiDS2YQSm1HreE8knQHj+fcMhGIPYenBoW4M70Yl8K3a35MSLlpQnnF//s2TPfkHFmy2RhA==}
     dependencies:
       '@lit/reactive-element': 2.0.0
-      lit: 3.1.0
+      lit: 3.1.1
       lit-html: 3.1.0
     dev: false
 
@@ -1022,7 +1022,7 @@ packages:
       '@parse5/tools': 0.3.0
       '@types/node': 16.18.36
       enhanced-resolve: 5.15.0
-      lit: 3.1.0
+      lit: 3.1.1
       lit-element: 4.0.0
       lit-html: 3.1.0
       node-fetch: 3.3.1
@@ -3180,8 +3180,8 @@ packages:
       '@types/trusted-types': 2.0.3
     dev: false
 
-  /lit@3.1.0:
-    resolution: {integrity: sha512-rzo/hmUqX8zmOdamDAeydfjsGXbbdtAFqMhmocnh2j9aDYqbu0fjXygjCa0T99Od9VQ/2itwaGrjZz/ZELVl7w==}
+  /lit@3.1.1:
+    resolution: {integrity: sha512-hF1y4K58+Gqrz+aAPS0DNBwPqPrg6P04DuWK52eMkt/SM9Qe9keWLcFgRcEKOLuDlRZlDsDbNL37Vr7ew1VCuw==}
     dependencies:
       '@lit/reactive-element': 2.0.0
       lit-element: 4.0.0
