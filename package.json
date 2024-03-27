@@ -16,25 +16,25 @@
     "@astrojs/image": "0.18.0",
     "@astrojs/lit": "4.0.1",
     "@astrojs/mdx": "2.0.4",
-    "@astrojs/partytown": "2.0.3",
+    "@astrojs/partytown": "2.0.4",
     "@astrojs/prefetch": "0.4.1",
     "@astrojs/sitemap": "3.0.4",
     "@astrojs/tailwind": "5.1.0",
     "@astrojs/vercel": "6.1.4",
     "@webcomponents/template-shadowroot": "0.2.1",
     "astro": "4.1.2",
-    "lit": "3.1.1"
+    "lit": "3.1.2"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "6.18.1",
     "postcss-html": "1.6.0",
     "postcss-lit": "1.1.1",
-    "prettier": "3.2.2",
+    "prettier": "3.2.5",
     "prettier-plugin-astro": "0.12.3",
     "stylelint": "16.1.0",
     "stylelint-config-html": "1.1.0",
     "stylelint-config-standard-scss": "13.0.0",
     "stylelint-config-tailwindcss": "0.0.7",
-    "tailwindcss": "3.4.1"
+    "tailwindcss": "3.4.3"
   }
 }
