@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@astrojs/image':
     specifier: 0.18.0
-    version: 0.18.0(astro@4.9.3)
+    version: 0.18.0(astro@4.10.0)
   '@astrojs/lit':
-    specifier: 4.1.0
-    version: 4.1.0(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.4)
+    specifier: 4.2.0
+    version: 4.2.0(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.4)
   '@astrojs/mdx':
-    specifier: 3.0.1
-    version: 3.0.1(astro@4.9.3)
+    specifier: 3.1.0
+    version: 3.1.0(astro@4.10.0)
   '@astrojs/partytown':
     specifier: 2.1.0
     version: 2.1.0
@@ -25,16 +25,16 @@ dependencies:
     version: 3.1.5
   '@astrojs/tailwind':
     specifier: 5.1.0
-    version: 5.1.0(astro@4.9.3)(tailwindcss@3.4.4)
+    version: 5.1.0(astro@4.10.0)(tailwindcss@3.4.4)
   '@astrojs/vercel':
     specifier: 7.6.0
-    version: 7.6.0(astro@4.9.3)
+    version: 7.6.0(astro@4.10.0)
   '@webcomponents/template-shadowroot':
     specifier: 0.2.1
     version: 0.2.1
   astro:
-    specifier: 4.9.3
-    version: 4.9.3(typescript@5.1.3)
+    specifier: 4.10.0
+    version: 4.10.0(typescript@5.1.3)
   lit:
     specifier: 3.1.4
     version: 3.1.4
@@ -97,7 +97,7 @@ packages:
     resolution: {integrity: sha512-yrpD1WRGqsJwANaDIdtHo+YVjvIOFAjC83lu5qENIgrafwZcJgSXDuwVMXOgok4tFzpeKLsFQ6c3FoUdloLWBQ==}
     dev: false
 
-  /@astrojs/image@0.18.0(astro@4.9.3):
+  /@astrojs/image@0.18.0(astro@4.10.0):
     resolution: {integrity: sha512-IAsECAGG5s0u7KItQMVVfhU8gAkIeIlzoSga6LymLvWvTWJacjxtnRYjct5uR03kuxIYAdjZhwQowKR1bYpwDA==}
     deprecated: '@astrojs/image is deprecated in favor of astro:assets. Please see the migration guide for more information: https://docs.astro.build/en/guides/upgrade-to/v3/\#removed-astrojsimage'
     peerDependencies:
@@ -108,7 +108,7 @@ packages:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 4.9.3(typescript@5.1.3)
+      astro: 4.10.0(typescript@5.1.3)
       http-cache-semantics: 4.1.1
       image-size: 1.0.2
       kleur: 4.1.5
@@ -120,8 +120,8 @@ packages:
     resolution: {integrity: sha512-6B13lz5n6BrbTqCTwhXjJXuR1sqiX/H6rTxzlXx+lN1NnV4jgnq/KJldCQaUWJzPL5SiWahQyinxAbxQtwgPHA==}
     dev: false
 
-  /@astrojs/lit@4.1.0(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.4):
-    resolution: {integrity: sha512-9R2Ks4Bd4jq8muMt4G7TEjlaDfMqQMHeWdg3eB0oUuAy+5o5IwGZhKtoJbl376bkYdrjjat7n7hpzf6H+HwFeg==}
+  /@astrojs/lit@4.2.0(@webcomponents/template-shadowroot@0.2.1)(lit@3.1.4):
+    resolution: {integrity: sha512-7x/r/OKdPBV6InnNPFt19yFVZGpKFMGuiRV3xhO/JzdHl7V3WuHbWDBcGOODOby3ENPVYt9dnH9P9gKcbEAiXA==}
     peerDependencies:
       '@webcomponents/template-shadowroot': ^0.2.1
       lit: ^3.1.0
@@ -149,7 +149,7 @@ packages:
       remark-parse: 11.0.0
       remark-rehype: 11.0.0
       remark-smartypants: 2.0.0
-      shiki: 1.6.0
+      shiki: 1.6.2
       unified: 11.0.4
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.0.0
@@ -159,8 +159,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@3.0.1(astro@4.9.3):
-    resolution: {integrity: sha512-UcPja14Qt6OEm7Wjak41Qa5f7G1M0oB2ARCsyIkXy6+Z65fJ6c1648UqEOqnEgR6Xtqq+V47wtK2qSP6KQKrAg==}
+  /@astrojs/mdx@3.1.0(astro@4.10.0):
+    resolution: {integrity: sha512-yuGDaOcCAfYgLQvUAlJDezYGK4twHlzW1Kvpyg3inxtDJuAsHdyVyYLWl0Wo5nwkyrbZktdrjnoW5scqzoAqAg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       astro: ^4.8.0
@@ -168,7 +168,7 @@ packages:
       '@astrojs/markdown-remark': 5.1.0
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
-      astro: 4.9.3(typescript@5.1.3)
+      astro: 4.10.0(typescript@5.1.3)
       es-module-lexer: 1.5.3
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -213,13 +213,13 @@ packages:
       zod: 3.23.8
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.9.3)(tailwindcss@3.4.4):
+  /@astrojs/tailwind@5.1.0(astro@4.10.0)(tailwindcss@3.4.4):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.9.3(typescript@5.1.3)
+      astro: 4.10.0(typescript@5.1.3)
       autoprefixer: 10.4.15(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -243,7 +243,7 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vercel@7.6.0(astro@4.9.3):
+  /@astrojs/vercel@7.6.0(astro@4.10.0):
     resolution: {integrity: sha512-LLOpXWYwTlYgZJCC+ulCpSUnUzOzLrlna2T0WCkhkH1UeavBY5NI0Agpq3rcQd012I7Vr2io+ZKUgKGW+EFvhg==}
     peerDependencies:
       astro: ^4.2.0
@@ -252,7 +252,7 @@ packages:
       '@vercel/analytics': 1.3.1
       '@vercel/edge': 1.1.1
       '@vercel/nft': 0.26.5
-      astro: 4.9.3(typescript@5.1.3)
+      astro: 4.10.0(typescript@5.1.3)
       esbuild: 0.21.4
       fast-glob: 3.3.2
       set-cookie-parser: 2.6.0
@@ -1492,10 +1492,6 @@ packages:
     dev: false
     optional: true
 
-  /@shikijs/core@1.6.0:
-    resolution: {integrity: sha512-NIEAi5U5R7BLkbW1pG/ZKu3eb1lzc3/+jD0lFsuxMT7zjaf9bbNwdNyMr7zh/Zl8EXQtQ+MYBAt5G+JLu+5DlA==}
-    dev: false
-
   /@shikijs/core@1.6.2:
     resolution: {integrity: sha512-guW5JeDzZ7uwOjTfCOFZ2VtVXk5tmkMzBYbKGfXsmAH1qYOej49L5jQDcGmwd6/OgvpmWhzO2GNJkQIFnbwLPQ==}
     dev: false
@@ -1867,8 +1863,8 @@ packages:
     hasBin: true
     dev: false
 
-  /astro@4.9.3(typescript@5.1.3):
-    resolution: {integrity: sha512-LhiKZMee56GI7+zIt15bXZVX4JSnj4syTrQdkYNgE+Y0udMad0x8RgJGzc2NMOK31e6w/SL+NFSvnt/d1kgs5w==}
+  /astro@4.10.0(typescript@5.1.3):
+    resolution: {integrity: sha512-UNVGGZIwdEPIUumcwgIQnd90b4/PslReY9q3xy/Q6bIq/kvK0duIWCbhFPwf06xu+1tExziP9Jl+klvLXM0LfA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -5085,12 +5081,6 @@ packages:
   /shebang-regex@3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
-
-  /shiki@1.6.0:
-    resolution: {integrity: sha512-P31ROeXcVgW/k3Z+vUUErcxoTah7ZRaimctOpzGuqAntqnnSmx1HOsvnbAB8Z2qfXPRhw61yptAzCsuKOhTHwQ==}
-    dependencies:
-      '@shikijs/core': 1.6.0
-    dev: false
 
   /shiki@1.6.2:
     resolution: {integrity: sha512-X3hSm5GzzBd/BmPmGfkueOUADLyBoZo1ojYQXhd+NU2VJn458yt4duaS0rVzC+WtqftSV7mTVvDw+OB9AHi3Eg==}
