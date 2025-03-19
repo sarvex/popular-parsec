@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "@astrojs/image": "0.18.0",
-    "@astrojs/lit": "4.2.0",
+    "@astrojs/lit": "4.3.0",
     "@astrojs/mdx": "4.2.1",
     "@astrojs/partytown": "2.1.0",
     "@astrojs/prefetch": "0.4.1",
-    "@astrojs/sitemap": "3.1.5",
+    "@astrojs/sitemap": "3.3.0",
     "@astrojs/tailwind": "6.0.0",
     "@astrojs/vercel": "8.1.2",
     "@webcomponents/template-shadowroot": "0.2.1",
