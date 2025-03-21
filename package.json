@@ -28,7 +28,7 @@
   "devDependencies": {
     "@typescript-eslint/parser": "8.26.1",
     "postcss-html": "1.7.0",
-    "postcss-lit": "1.1.1",
+    "postcss-lit": "1.2.0",
     "prettier": "3.5.3",
     "prettier-plugin-astro": "0.14.0",
     "stylelint": "16.16.0",
