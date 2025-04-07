@@ -26,7 +26,7 @@
     "lit": "3.2.1"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "8.29.0",
+    "@typescript-eslint/parser": "8.29.1",
     "postcss-html": "1.8.0",
     "postcss-lit": "1.2.0",
     "prettier": "3.5.3",
@@ -35,6 +35,6 @@
     "stylelint-config-html": "1.1.0",
     "stylelint-config-standard-scss": "14.0.0",
     "stylelint-config-tailwindcss": "1.0.0",
-    "tailwindcss": "4.1.2"
+    "tailwindcss": "4.1.3"
   }
 }
