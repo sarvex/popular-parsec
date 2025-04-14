@@ -15,7 +15,7 @@
   "dependencies": {
     "@astrojs/image": "0.18.0",
     "@astrojs/lit": "4.3.0",
-    "@astrojs/mdx": "4.2.3",
+    "@astrojs/mdx": "4.2.4",
     "@astrojs/partytown": "2.1.4",
     "@astrojs/prefetch": "0.4.1",
     "@astrojs/sitemap": "3.3.0",
@@ -35,6 +35,6 @@
     "stylelint-config-html": "1.1.0",
     "stylelint-config-standard-scss": "14.0.0",
     "stylelint-config-tailwindcss": "1.0.0",
-    "tailwindcss": "4.1.2"
+    "tailwindcss": "4.1.4"
   }
 }
