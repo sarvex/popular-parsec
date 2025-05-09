@@ -12,8 +12,8 @@ dependencies:
     specifier: 4.3.0
     version: 4.3.0(@webcomponents/template-shadowroot@0.2.1)(lit@3.2.1)
   '@astrojs/mdx':
-    specifier: 4.2.3
-    version: 4.2.3(astro@5.5.6)
+    specifier: 4.2.6
+    version: 4.2.6(astro@5.5.6)
   '@astrojs/partytown':
     specifier: 2.1.4
     version: 2.1.4
@@ -21,14 +21,14 @@ dependencies:
     specifier: 0.4.1
     version: 0.4.1
   '@astrojs/sitemap':
-    specifier: 3.3.0
-    version: 3.3.0
+    specifier: 3.3.1
+    version: 3.3.1
   '@astrojs/tailwind':
     specifier: 6.0.2
-    version: 6.0.2(astro@5.5.6)(tailwindcss@4.1.2)
+    version: 6.0.2(astro@5.5.6)(tailwindcss@4.1.6)
   '@astrojs/vercel':
-    specifier: 8.1.3
-    version: 8.1.3(astro@5.5.6)
+    specifier: 8.1.4
+    version: 8.1.4(astro@5.5.6)
   '@webcomponents/template-shadowroot':
     specifier: 0.2.1
     version: 0.2.1
@@ -66,10 +66,10 @@ devDependencies:
     version: 14.0.0(postcss@8.5.3)(stylelint@16.17.0)
   stylelint-config-tailwindcss:
     specifier: 1.0.0
-    version: 1.0.0(stylelint@16.17.0)(tailwindcss@4.1.2)
+    version: 1.0.0(stylelint@16.17.0)(tailwindcss@4.1.6)
   tailwindcss:
-    specifier: 4.1.2
-    version: 4.1.2
+    specifier: 4.1.6
+    version: 4.1.6
 
 packages:
 
@@ -145,8 +145,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@4.2.3(astro@5.5.6):
-    resolution: {integrity: sha512-oteB88udzzZmix5kWWUMeMJfeB2Dj8g7jy9LVNuTzGlBh3mEkGhQr6FsIR43p0JKCN11fl5J7P/Ev4Q0Nf0KQQ==}
+  /@astrojs/mdx@4.2.6(astro@5.5.6):
+    resolution: {integrity: sha512-0i/GmOm6d0qq1/SCfcUgY/IjDc/bS0i42u7h85TkPFBmlFOcBZfkYhR5iyz6hZLwidvJOEq5yGfzt9B1Azku4w==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       astro: ^5.0.0
@@ -189,15 +189,15 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/sitemap@3.3.0:
-    resolution: {integrity: sha512-nYE4lKQtk+Kbrw/w0G0TTgT724co0jUsU4tPlHY9au5HmTBKbwiCLwO/15b1/y13aZ4Kr9ZbMeMHlXuwn0ty4Q==}
+  /@astrojs/sitemap@3.3.1:
+    resolution: {integrity: sha512-GRnDUCTviBSNfXJ0Jmur+1/C+z3g36jy79VyYggfe1uNyEYSTcmAfTTCmbytrRvJRNyJJnSfB/77Gnm9PiXRRg==}
     dependencies:
       sitemap: 8.0.0
       stream-replace-string: 2.0.0
       zod: 3.24.2
     dev: false
 
-  /@astrojs/tailwind@6.0.2(astro@5.5.6)(tailwindcss@4.1.2):
+  /@astrojs/tailwind@6.0.2(astro@5.5.6)(tailwindcss@4.1.6):
     resolution: {integrity: sha512-j3mhLNeugZq6A8dMNXVarUa8K6X9AW+QHU9u3lKNrPLMHhOQ0S7VeWhHwEeJFpEK1BTKEUY1U78VQv2gN6hNGg==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -207,7 +207,7 @@ packages:
       autoprefixer: 10.4.21(postcss@8.5.3)
       postcss: 8.5.3
       postcss-load-config: 4.0.2(postcss@8.5.3)
-      tailwindcss: 4.1.2
+      tailwindcss: 4.1.6
     transitivePeerDependencies:
       - ts-node
     dev: false
@@ -227,8 +227,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vercel@8.1.3(astro@5.5.6):
-    resolution: {integrity: sha512-mHO28cc0FQbA6ncFteW5Hqf2l0gSthPNF8/dpM1sQAOD92Mbyi93/4EhTYj07Xhi3t37FU4tPtzyQoCAn4P4Kg==}
+  /@astrojs/vercel@8.1.4(astro@5.5.6):
+    resolution: {integrity: sha512-mJAbaXwLBVsk+5JNwzKIrpvIQ4llW/gS9ut5Rot5x6D+9DYSqfZ6PRIT0YvyzgUackahYAQdH/MZWeqVrcmwuA==}
     peerDependencies:
       astro: ^5.0.0
     dependencies:
@@ -4771,14 +4771,14 @@ packages:
       stylelint-config-recommended: 14.0.1(stylelint@16.17.0)
     dev: true
 
-  /stylelint-config-tailwindcss@1.0.0(stylelint@16.17.0)(tailwindcss@4.1.2):
+  /stylelint-config-tailwindcss@1.0.0(stylelint@16.17.0)(tailwindcss@4.1.6):
     resolution: {integrity: sha512-e6WUBJeLdOZ0sy8FZ1jk5Zy9iNGqqJbrMwnnV0Hpaw/yin6QO3gVv/zvyqSty8Yg6nEB5gqcyJbN387TPhEa7Q==}
     peerDependencies:
       stylelint: '>=13.13.1'
       tailwindcss: '>=2.2.16'
     dependencies:
       stylelint: 16.17.0(typescript@5.1.3)
-      tailwindcss: 4.1.2
+      tailwindcss: 4.1.6
     dev: true
 
   /stylelint-scss@6.11.1(stylelint@16.17.0):
@@ -4889,8 +4889,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss@4.1.2:
-    resolution: {integrity: sha512-VCsK+fitIbQF7JlxXaibFhxrPq4E2hDcG8apzHUdWFMCQWD8uLdlHg4iSkZ53cgLCCcZ+FZK7vG8VjvLcnBgKw==}
+  /tailwindcss@4.1.6:
+    resolution: {integrity: sha512-j0cGLTreM6u4OWzBeLBpycK0WIh8w7kSwcUsQZoGLHZ7xDTdM69lN64AgoIEEwFi0tnhs4wSykUa5YWxAzgFYg==}
 
   /tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
